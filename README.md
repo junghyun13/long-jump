@@ -10,4 +10,4 @@ def solution(n):
     return dp[n-1] % 1234567 #정답은 실제 개수를 1234567로 나눈 나머지 값이므로
 a=solution(4)
 print(a)
-#result--> 5
+#result--> 5 점화식을 이용!--> n칸을 뛰는 방법 = (n-2칸을 뛰는 방법) + (n-1칸을 뛰는 방법)
